@@ -1,0 +1,48 @@
+.work{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 100vw;
+}
+.line{
+    display: block;
+    width: 200px;
+    height: 5px;
+    margin-top: 10px;
+    background-color: rgba(36, 34, 34, 0.678);
+    border-radius: 10px;
+}
+.work-card-icons{
+        border:1px solid #B90424;
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        margin-left: 4px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+}
+.max-w{
+    max-width: 75%;
+    min-width: 25% !important;
+}
+.work-card{
+
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all .5s ease-in-out;
+}
+.work-card:hover{
+    transform: scale(1.1);
+}
+@media (max-width:992px)
+{
+    .work-card{
+        cursor: pointer;
+        z-index: -10;
+    }
+}
