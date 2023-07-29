@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "My Custom Font text";
-  src: url(Components/Assets/Fonts/D-DIN-Bold.otf) format("woff");
+  src: url(Components/Assets/Fonts/D-DIN.otf) format("woff");
 }
 
 h1,h2,h3,h4,h5,h6,p,a,section{

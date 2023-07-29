@@ -2,9 +2,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+   background-color: white;
     max-width: 100%;
- 
+    padding: 2rem 0rem;
+    background-image: url(../Assets/Images/profile.8ca05271.jpg);
+   background-position: center;
+   background-size: cover;
 }
 .line{
     display: block;
@@ -14,7 +17,23 @@
     background-color: rgba(36, 34, 34, 0.678);
     border-radius: 10px;
 }
-
+.sew{
+  transition: all .5s ease-in-out;
+  
+}
+.sew:hover{
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.custom-card{
+  background-color: #1b1b1b75;
+  cursor: pointer;
+  max-width: 86%;
+  transition: all .5s ease-in-out;
+}
+.custom-card:hover{
+  background-color: #50282875;
+  transform: translateY(10px);
+}
 .project-btn{
     color: #B90424;
     text-transform: uppercase;
