@@ -6,7 +6,7 @@ import {FaFacebookF} from "react-icons/fa"
 const HeroSection = () => {
  
   return (
-    <section className={classes["hero-section"]}>
+    <section id='hero' className={classes["hero-section"]}>
         <div className={classes["hero-text-container"]}>
           <div className={classes["flex-center"]}>
           <span className="spaceX text-black"data-aos="fade-up"  data-aos-delay="500" data-aos-duration="500">HELLO </span>

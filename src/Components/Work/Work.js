@@ -5,7 +5,7 @@ import {BiSupport} from "react-icons/bi"
 import "./Work.css"
 const Work = () => {
   return (
-    <div className='container text-center pt-5  text-black work'>
+    <div id='work' className='container text-center pt-5  text-black work'>
          <h1 className='spaceX title'>What I'm Doing</h1> 
          <span className='spaceX'>I love what I do. I take great pride in what I do.</span>
          <span className='line'></span>

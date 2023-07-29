@@ -59,7 +59,7 @@ const Project = () => {
   ];
   
   return (
-    <div className="container-fluid project">
+    <div id="Projects" className="container-fluid project">
       <div className="container d-flex justify-content-center flex-column align-items-center">
       <h1 className='spaceX title'>Projects</h1> 
          <span className='spaceX light'>I love what I do. I take great pride in what I do.</span>

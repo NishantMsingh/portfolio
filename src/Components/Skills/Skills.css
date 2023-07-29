@@ -5,7 +5,9 @@
     justify-content: flex-start;
     margin: 10px;
   }
-  
+  .active{
+    border-bottom: 3px solid #B90424;
+  }
   .progress-bar {
     width: 100%;
     height: 20px;

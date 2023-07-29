@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Skills from './Skills';
-
+import './Skills.css'
 const SkillSection = () => {
 
     const [tech,setTect]=useState(false);
@@ -22,12 +22,12 @@ const SkillSection = () => {
       </div>
 
        <div className='container'>
-        <div className='d-flex align-items-center justify-content-evenly flex-row'> 
-          <h2 className='light ddin pointer mb-4' onClick={()=>{SkillsHandler("Tech")}}>Technical Skills</h2>
-          <h2 className='light ddin pointer mb-4' onClick={()=>{SkillsHandler("NonTech")}}>Soft Skills</h2>
+        <div className='d-flex align-items-center justify-content-evenly flex-row mb-3'> 
+          <h2 className={tech?'active light ddin pointer':'light ddin pointer mb-4'} onClick={()=>{SkillsHandler("Tech")}}>Technical Skills</h2>
+          <h2 className={tech?' light ddin pointer':'active light ddin pointer mb-4'} onClick={()=>{SkillsHandler("NonTech")}}>Soft Skills</h2>
         
         </div>
-       <div className="row justify-content-center g-2">
+       <div className="row justify-content-center">
        
        {tech && <div className="col-lg-8 col-sm-8 col-md-8 bg-secondary d-flex justify-content-center flex-column">
          <Skills skillName="HTML" percentage={75} />
