@@ -15,10 +15,10 @@ const HeroSection = () => {
           <span className="spaceX text-light" data-aos="fade-in"  data-aos-delay="1200" data-aos-duration="1000"> Passionate about changing the world with technology.
 </span>
           <div className={classes.links}>
-             <span className={classes["links-hero"]}> <a href='#linkidin'><BiLogoLinkedin fontSize={"1.5rem"}/></a></span>
-             <span className={classes["links-hero"]}> <a href='#linkidin'><AiFillGithub fontSize={"1.5rem"}/></a></span>
-             <span className={classes["links-hero"]}> <a href='#linkidin'><BsTwitter fontSize={"1.5rem"}/></a></span>
-             <span className={classes["links-hero"]}> <a href='#linkidin'><FaFacebookF fontSize={"1.5rem"}/></a></span>
+             <span className={classes["links-hero"]}> <a target='blank' href='https://www.linkedin.com/in/nishant-kumar-124595284/'><BiLogoLinkedin fontSize={"1.5rem"}/></a></span>
+             <span className={classes["links-hero"]}> <a target='blank' href='https://github.com/NishantMsingh'><AiFillGithub fontSize={"1.5rem"}/></a></span>
+             <span className={classes["links-hero"]}> <a target='blank' href='https://twitter.com/Nishant82260284'><BsTwitter fontSize={"1.5rem"}/></a></span>
+             <span className={classes["links-hero"]}> <a target='blank' href='https://www.facebook.com/profile.php?id=100095054529905'><FaFacebookF fontSize={"1.5rem"}/></a></span>
           </div>
           </div>
         </div>

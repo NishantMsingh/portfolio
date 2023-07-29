@@ -32,15 +32,27 @@ const SkillSection = () => {
        {tech && <div className="col-lg-8 col-sm-8 col-md-8 bg-secondary d-flex justify-content-center flex-column">
          <Skills skillName="HTML" percentage={75} />
          <Skills skillName="CSS" percentage={85} />
-         <Skills skillName="JavaScript" percentage={90} />
-         <Skills skillName="React JS" percentage={90} />
-         <Skills skillName="BootStrap" percentage={90} />
-         <Skills skillName="Saas" percentage={90} />
+         <Skills skillName="JavaScript" percentage={30} />
+         <Skills skillName="React JS" percentage={50} />
+         <Skills skillName="BootStrap" percentage={60} />
+         <Skills skillName="Saas" percentage={20} />
+         <Skills skillName="C++" percentage={50} />
+         <Skills skillName="Java" percentage={55} />
+         <Skills skillName="SQL" percentage={45} />
+         <Skills skillName="PhotoShop" percentage={35} />
+         <Skills skillName="Responsive" percentage={95} />
        </div>}
       {!tech && <div className="col-lg-8 col-sm-8 col-md-8 bg-secondary d-flex justify-content-center flex-column">
-         <Skills skillName="HTML" percentage={75} />
-         <Skills skillName="CSS" percentage={85} />
-         <Skills skillName="JavaScript" percentage={90} />
+         <Skills skillName="Problem Solving
+
+" percentage={75} />
+         <Skills skillName="Goal-Oriented
+
+" percentage={75} />
+         <Skills skillName="Empathy" percentage={85} />
+         <Skills skillName="Positivity" percentage={60} />
+         <Skills skillName="Adaptability" percentage={90} />
+         <Skills skillName="Collaboration" percentage={95} />
        </div>}
      </div>
        </div>

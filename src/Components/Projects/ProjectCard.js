@@ -13,20 +13,20 @@ const ProjectCard = (props) => {
         <p className='mt-1 ddin'>{description}</p>
         <div className="row mt-3">
           <div className="col">
-            <a className='rounded bg-light title p-2 me-2 ddin' href={cloneLink}>Clone Project <BsGithub/></a>
-            <a className='rounded bg-light title p-2 me-2 ddin' href={repoLink}>Git Repo.. <BsGithub/></a>
+            <a target='blank' className='rounded bg-light title p-2 me-2 ddin' href={cloneLink}>Clone Project <BsGithub/></a>
+            <a target='blank'  className='rounded bg-light title p-2 me-2 ddin' href={repoLink}>Git Repo.. <BsGithub/></a>
           </div>
           <hr className='mt-3'></hr>
           <div className="col">
             <span>Languages:-</span>
             {languages.map((lang) => (
-              <a key={lang.name} className='me-2 ddin' href={lang.link}>{lang.name}</a>
+              <a target='blank' key={lang.name} className='me-2 ddin' href={lang.link}>{lang.name}</a>
             ))}
           </div>
         </div>
         <div className="col mt-3">
-          <a className='rounded bg-light title p-2 me-2 ddin' href={starLink}>Star <BsGithub/></a>
-          <a className='rounded bg-light title p-2 me-2 ddin' href={dataLink}>{date} <CgCalendarDates/></a>
+          <a target='blank' className='rounded bg-light title p-2 me-2 ddin' href={starLink}>Star <BsGithub/></a>
+          <a target='blank' className='rounded bg-light title p-2 me-2 ddin' href={dataLink}>{date} <CgCalendarDates/></a>
         </div>
       </div>
     </div>

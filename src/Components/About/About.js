@@ -1,6 +1,7 @@
 import React from "react";
 import imag from "../Assets/Images/3426526.jpg";
 import "./Abou.css";
+import resume from "../Assets/Resume/resume.pdf";
 const About = () => {
   return (
     <div id="About" className="container-fluid about">
@@ -32,7 +33,9 @@ const About = () => {
                 <a href="mailto:nishantkumarsingh16019@gmail.com">HireMe</a>
               </span>
             </button>
-            <button className="cv"> DownLaod my CV</button>
+            <button className="cv"> <a href={resume} download>
+        Download CV
+</a></button>
           </div>
           <div
             className="col-lg-6 col-md-12 col-sm-12 ps-5 pe-5 pt-5 rounded "

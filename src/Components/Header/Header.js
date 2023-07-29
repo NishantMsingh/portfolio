@@ -17,11 +17,12 @@ const Header = () => {
   return (
     <header className="header-absolute">
       <div className="spaceX light">Xishant</div>
-      <nav className={menu ? 'heigh light fon-500 pointer spaceX' : ' light fon-500 pointer spaceX'}>
+      <nav className={menu ? 'heigh light fon-500 pointer ddin' : ' light fon-500 pointer ddin'}>
         <span> <a href='#hero'>Home</a></span>
         <span><a href='#About'>About</a></span>
         <span><a href='#Skills'>Skills</a></span>
         <span><a href='#Projects'>Projects</a></span>
+        <span><a href='Resuem' download>Resume</a></span>
         <span><a href='#Contact'>Contact</a></span>
       </nav>
       <div>
