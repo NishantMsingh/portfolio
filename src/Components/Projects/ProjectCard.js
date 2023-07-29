@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   const { title, description, cloneLink, repoLink, starLink, languages,dataLink,date } = props.project;
 
   return (
-    <div className="col-lg-5 col-md-5 col-sm-8 card m-1 p-2 custom-card text-white">
+    <div className="col-lg-5 col-md-5 col-sm-8 card m-2 p-2 custom-card text-white">
       <div className="card-body">
         <h4 className='ddin title'>{title}</h4>
         <p className='mt-1 ddin'>{description}</p>
@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
         </div>
         <div className="col mt-3">
           <a target='blank' className='rounded bg-light title p-2 me-2 ddin' href={starLink}>Star <BsGithub/></a>
-          <a target='blank' className='rounded bg-light title p-2 me-2 ddin' href={dataLink}>{date} <CgCalendarDates/></a>
+          <a target='blank' className='rounded text-light p-2 me-2 ddin' href={dataLink}>{date} <CgCalendarDates/></a>
         </div>
       </div>
     </div>

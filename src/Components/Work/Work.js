@@ -1,7 +1,6 @@
 import React from 'react';
 import {RiComputerLine} from "react-icons/ri"
-import {BsPencilSquare} from "react-icons/bs"
-import {BiSupport} from "react-icons/bi"
+
 import "./Work.css"
 const Work = () => {
   return (
@@ -13,34 +12,25 @@ const Work = () => {
          <div class="row justify-content-center align-items-center pt-4 pb-4">
   <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6 ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
      <span className='work-card-icons'> <RiComputerLine fontSize={"3rem"}/></span>
-    <h4 class="pt-3 spaceX title">PHP Dev..</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
+    <h4 class="pt-3 spaceX title">App Dev..</h4>
+    <p class="pt-3 ddin">
+      We are enthuistic developers, we develop applicaion/website and software in varius languages like React,React Native, Java, PHP.
+      So if you are looking for developer you can contact us via a mail.</p>
   </div>
   <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6 ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
-  <span className='work-card-icons'> <BsPencilSquare fontSize={"3rem"}/></span>
+  <span className='work-card-icons'> <RiComputerLine fontSize={"3rem"}/></span>
     <h4 class="pt-3 spaceX title">Web Dev..</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
+    <p class="pt-3 ddin">  We are enthuistic developers, we develop applicaion/website and software in varius languages like React,React Native, Java, PHP.
+      So if you are looking for developer you can contact us via a mail.</p>
   </div>
+ 
   <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6  ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
-  <span className='work-card-icons'> <BiSupport fontSize={"3rem"}/></span>
-    <h4 class="pt-3 spaceX title">Support</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
-  </div>
-   <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6  ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
-  <span className='work-card-icons'> <BiSupport fontSize={"3rem"}/></span>
-    <h4 class="pt-3 spaceX title">SEO</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
-  </div>
-  <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6  ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
-  <span className='work-card-icons'> <BiSupport fontSize={"3rem"}/></span>
+  <span className='work-card-icons'> <RiComputerLine fontSize={"3rem"}/></span>
     <h4 class="pt-3 spaceX title">Java</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
+    <p class="pt-3 ddin">  We are enthuistic developers, we develop applicaion/website and software in varius languages like React,React Native, Java, PHP.
+      So if you are looking for developer you can contact us via a mail.</p>
   </div>
-   <div class=" max-w work-card col-lg-3 col-md-4 col-sm-6  ms-1 me-1 text-light mt-3 d-flex flex-column align-items-center justify-content-center border-0 pt-5 pb-5 rounded" data-aos="fade-in">
-  <span className='work-card-icons'> <BiSupport fontSize={"3rem"}/></span>
-    <h4 class="pt-3 spaceX title">Web App</h4>
-    <p class="pt-3 ddin">There are many variations of passages of Lorem Ipsum available, but in some form, Lorem Ipsum is simply dummy text.</p>
-  </div>
+  
 </div>
 
     </div>

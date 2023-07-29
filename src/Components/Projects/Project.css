@@ -31,8 +31,8 @@
   transition: all .5s ease-in-out;
 }
 .custom-card:hover{
-  background-color: #50282875;
-  transform: translateY(10px);
+  background-color: #f0ebeb75;
+  transform: translateY(5px);
 }
 .project-btn{
     color: #B90424;

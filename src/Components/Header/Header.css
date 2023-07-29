@@ -9,7 +9,7 @@
     z-index: 10000;
 }
 .heigh{
-    transition: all .5s ease-in-out;
+
 }
 nav span{
     margin-left: 10px;
@@ -25,12 +25,13 @@ nav span{
          align-items: center;
          justify-content: center;
          flex-direction: column;
-        background-color: #353434;
+        background-color: #000000b9;
         width: 100%;
         margin: 0px !important;
         padding: 0px !important;
         height: 0px;
         overflow-y: hidden;
+        transition: all .5s cubic-bezier(0.26,-0.37, 0.19, 0.91);
     
         
     }

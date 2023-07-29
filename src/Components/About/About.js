@@ -21,21 +21,19 @@ const About = () => {
             </p>
             <p className="ddin">
               My name is Nishant Kumar. I’m a graduate of 2019 from Karim city
-              College, Jamshedpur, India with a degree in Computer Application.
+              College, Jharkhand, India with a degree in Computer Application.
               I'm most passionate about giving back to the community, and my
               goal is to pursue this passion within the field of software
               engineering. In my free time I like working on open source
               projects.
             </p>
-            <button className="hire">
+            <button className="hire bg-dark">
               {" "}
               <span>
                 <a href="mailto:nishantkumarsingh16019@gmail.com">HireMe</a>
               </span>
             </button>
-            <button className="cv"> <a href={resume} download>
-        Download CV
-</a></button>
+            <button className="cv bg-dark"> <a href={resume} download>Download CV</a></button>
           </div>
           <div
             className="col-lg-6 col-md-12 col-sm-12 ps-5 pe-5 pt-5 rounded "
