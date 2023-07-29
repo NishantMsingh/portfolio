@@ -4,6 +4,10 @@
   font-family: "My Custom Font";
   src: url(Components/Assets/Fonts/SpaceX.ttf) format("woff");
 }
+@font-face {
+  font-family: "My Custom Font text";
+  src: url(Components/Assets/Fonts/D-DIN-Bold.otf) format("woff");
+}
 
 h1,h2,h3,h4,h5,h6,p,a,section{
   margin: 0;
@@ -13,6 +17,9 @@ h1,h2,h3,h4,h5,h6,p,a,section{
 }
 .spaceX{
   font-family: "My Custom Font", Verdana, Tahoma;
+}
+.ddin{
+  font-family:"My Custom Font text", Verdana, Tahoma; ;
 }
 .fon-500{
   font-weight: 500;

@@ -4,7 +4,7 @@ import Header from './Components/Header/Header';
 import About from "./Components/About/About";
 import Work from './Components/Work/Work';
 import Project from './Components/Projects/Project';
-
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="contaier-fluid">
@@ -14,6 +14,7 @@ function App() {
       <About />
       <Work />
       <Project />
+      {/* <Footer /> */}
 
 
     </div>
