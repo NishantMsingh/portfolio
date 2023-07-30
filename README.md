@@ -35,7 +35,7 @@ Installation and Setup
 Clone this repository to your local machine using:
 
 
-# git clone https://github.com/your-username/your-portfolio.git
+# git clone https://github.com/NishantMsingh/portfolio.git
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
