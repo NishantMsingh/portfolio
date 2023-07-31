@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { HiMenuAlt4 } from 'react-icons/hi';
+import resume from "../Assets/Resume/Nishant Rajput.pdf";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
         <span><a href='#About' onClick={menuHandler}>About</a></span>
         <span><a href='#Skills' onClick={menuHandler}>Skills</a></span>
         <span><a href='#Projects' onClick={menuHandler}>Projects</a></span>
-        <span><a href='#About' download onClick={menuHandler}>Resume</a></span>
+        <span><a href={resume} download onClick={menuHandler}>Resume</a></span>
         <span><a href='#Contact' onClick={menuHandler}>Contact</a></span>
       </nav>
       <div>

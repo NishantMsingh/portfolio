@@ -1,7 +1,7 @@
 import React from "react";
 import imag from "../Assets/Images/3426526.jpg";
 import "./Abou.css";
-import resume from "../Assets/Resume/resume.pdf";
+import resume from "../Assets/Resume/Nishant Rajput.pdf";
 const About = () => {
   return (
     <div id="About" className="container-fluid about">
