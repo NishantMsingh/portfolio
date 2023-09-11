@@ -1,16 +1,11 @@
 # Portfolio
-
-<<<<<<< HEAD
 This project was bootstrapped with [Xishant Singh Rajput](https://github.com/facebook/create-react-app).
-=======
-![image](https://github.com/NishantMsingh/portfolio/assets/93445529/6a46cc33-f0c3-45aa-936c-2089e4599cda)
->>>>>>> 8a329fa356bc2439b5ca94896e9cf374e0944c40
 
+![image](https://github.com/NishantMsingh/portfolio/assets/93445529/6a46cc33-f0c3-45aa-936c-2089e4599cda)
 
 Welcome to my open-source portfolio project built with React! This project showcases my skills and projects in a clean and interactive manner, providing an overview of my experience, education, and featured works.
 
 Live Demo: nishantrajput.vercel.app
-
 
 Table of Contents
 Introduction
